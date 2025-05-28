@@ -1,0 +1,42 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+
+
+/* Modal */
+.modal-content {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Form Inputs */
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+}
+.text-truncate-lines {
+    display: -webkit-box;           /* Required for WebKit-based browsers */
+    display: box;                   /* Old syntax fallback */
+    display: -moz-box;              /* For Firefox (older versions) */
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  
+    -webkit-line-clamp: 2;          /* Limit to 2 lines */
+    line-clamp: 2;                  /* Standard property (currently not widely supported yet) */
+  }
+  
